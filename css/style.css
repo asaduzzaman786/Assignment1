@@ -4,6 +4,10 @@ p{
     color: rgba(39, 39, 39, 0.60);
 }
 
+h2{
+    font-size: 40px;
+}
+
 .btn{
     color: #fff;
     font-size: 20px;
@@ -48,7 +52,6 @@ p{
 }
 
 .featured h2{
-    font-size: 40px;
     text-align: center;
     margin-top: 150px;
 }
@@ -115,4 +118,37 @@ p{
     color:rgba(39, 39, 39, 0.80);
 }
 
+/*====== DEAL SECTION STYLE======= */
 
+.deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e554730f;
+    margin-top: 100px;
+}
+
+.deal-container{
+    padding: 80px;
+}
+.deal-container h2{
+    text-align: center;
+}
+
+.deal-container p{
+    text-align: center;
+    width: 580px;
+    margin: auto;
+}
+
+
+.deal-container img{
+    width: 316px;
+    height: 420px;
+}
+
+.deal-container .btn{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
