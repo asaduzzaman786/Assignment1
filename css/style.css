@@ -1,0 +1,39 @@
+/*======= BASIC CSS =========*/
+.btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/*====== HEADER SECTION STYLE======= */
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-content h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 700px;
+}
+
+.header-content p{
+    color: rgba(39, 39, 39, 0.60);
+    width: 634px;
+    font-size: 18px;
+}
+
+.header-content img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+}
