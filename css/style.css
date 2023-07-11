@@ -1,4 +1,8 @@
-/*======= BASIC CSS =========*/
+/*======= BASIC STYLE =========*/
+*{
+    margin: 0;
+    padding: 0;
+}
 p{
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
@@ -6,6 +10,7 @@ p{
 
 h2{
     font-size: 40px;
+    color: #272727;
 }
 
 .btn{
@@ -151,4 +156,63 @@ h2{
     display: block;
     margin: auto;
     margin-top: 50px;
+}
+
+/*====== INSTAGRAM SECTION STYLE======= */
+.instagram{
+    width: 1440px;
+    margin: auto;
+}
+
+.instagram-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.instagram h2{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.instagram p{
+    width: 580px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*====== SUBCRIBE SECTION STYLE======= */
+.subscribe{
+    background-image: url('../images/Rectangle\ 9.png');
+    width: 1440px;
+    height: 449px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.subscribe-content h2{
+    text-align: center;
+}
+
+.subscribe-content p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.subscribe-content input{
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+}
+
+.subscribe-content input[placeholder]{
+    font-size: 16px;
+    padding-left: 15px;
 }
