@@ -59,6 +59,7 @@ h2{
 .featured h2{
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 20px;
 }
 
 .featured p{
@@ -89,6 +90,7 @@ h2{
     font-size: 24px;
     font-weight: 700;
     color: #272727;
+    margin-top: 20px;
 }
 
 #bg1{
@@ -146,7 +148,6 @@ h2{
     margin: auto;
 }
 
-
 .deal-container img{
     width: 316px;
     height: 420px;
@@ -172,6 +173,7 @@ h2{
 .instagram h2{
     text-align: center;
     margin-top: 120px;
+    margin-bottom: 20px;
 }
 
 .instagram p{
@@ -215,4 +217,38 @@ h2{
 .subscribe-content input[placeholder]{
     font-size: 16px;
     padding-left: 15px;
+}
+
+/*====== FOOTER STYLE======= */
+.footer{
+    background-color: #111010;
+    height: 449px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-content h2{
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content h2 span{
+    color: #E55473;
+    display: inline !important;
+}
+
+.footer-content p{
+    color: rgba(255, 255, 255, 0.90);
+    width: 580px;
+    text-align: center;
+    margin: auto;
+    margin: 30px 0;
+}
+
+.footer-content span{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
 }
