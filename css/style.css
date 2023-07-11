@@ -1,4 +1,9 @@
 /*======= BASIC CSS =========*/
+p{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
 .btn{
     color: #fff;
     font-size: 20px;
@@ -27,9 +32,7 @@
 }
 
 .header-content p{
-    color: rgba(39, 39, 39, 0.60);
     width: 634px;
-    font-size: 18px;
 }
 
 .header-content img{
@@ -37,3 +40,79 @@
     height: 800px;
     margin-top: 50px;
 }
+
+/*====== FEATURED SECTION STYLE======= */
+.featured{
+    width: 1440px;
+    margin: auto;
+}
+
+.featured h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.featured p{
+    text-align: center;
+    width: 580px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.featured-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.featured-flower img{
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
+    border-radius:300px 300px 0 0 ;
+    padding: 75px 72px;
+    padding-bottom: 0;
+}
+
+.featured-flower h4{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    color: #272727;
+}
+
+#bg1{
+    background-color: rgba(5, 151, 160, 0.1);
+}
+
+#bg2{
+    background-color: rgba(71, 125, 17, 0.1);
+}
+
+.featured-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+}
+
+.featured-contact{
+    padding: 60px;
+}
+
+.featured-contact img{
+    margin: auto;
+    display: block;
+}
+
+.featured-contact h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color:rgba(39, 39, 39, 0.80);
+}
+
+
