@@ -23,6 +23,7 @@ h2{
     border-radius: 8px;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 
@@ -186,7 +187,36 @@ h2{
     margin-bottom: 50px;
 }
 
-/*====== SUBCRIBE SECTION STYLE======= */
+/*====== CELEBRATE SECTION STYLE======= */
+.celebrate{
+    position: relative;
+    margin-top: 100px;
+}
+.celebrate-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.celebrate-container img{
+    width: 745px;
+    height: 640px;
+}
+
+.celebrate-content p{
+    width: 55%;
+    margin: auto;
+}
+.celebrate-content{
+    position: absolute;
+    bottom: 130px;
+    left: 55%;
+    background-color: #fff;
+    opacity: .9;
+    padding: 95px 40px;
+    text-align: center;
+}
+/*====== SUBSCRIBE SECTION STYLE======= */
 .subscribe{
     background-image: url('../images/Rectangle\ 9.png');
     width: 1440px;
